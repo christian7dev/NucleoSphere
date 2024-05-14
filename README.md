@@ -27,3 +27,9 @@ Curated Resources: Access a directory of credible and up-to-date research materi
 Engaging Quizzes: Test and solidify your understanding of nuclear power through interactive quizzes.
 Varied Difficulty Levels: Cater to users of different knowledge levels with appropriately tailored questions.
 Track Progress: Monitor your learning journey and identify areas for improvement.
+
+** File to Download 
+** for 64-bit ARM processors : [https://github.com/christian7dev/NucleoSphere/blob/main/app-arm64-v8a-release.apk
+]
+** for 32-bit ARM processors : [https://github.com/christian7dev/NucleoSphere/blob/main/app-armeabi-v7a-release.apk]
+** for 64-bit x86 processors : [https://github.com/christian7dev/NucleoSphere/blob/main/app-x86_64-release.apk]
