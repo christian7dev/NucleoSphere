@@ -170,7 +170,7 @@ class _HomePageState extends State<HomePage> {
                                 Container(
                                   height: 100,
                                   width: 100,
-                                  child: Image.asset('assets/quiz.avif',
+                                  child: Image.asset('assets/quiz_logo.jpg',
                                       fit: BoxFit.fill),
                                 ),
                                 const Text(

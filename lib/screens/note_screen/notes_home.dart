@@ -46,25 +46,31 @@ class _NotesHomeState extends State<NotesHome> {
                                     note: snapshot.data!.docs[index]
                                         .data()["notes"])));
                       },
-                      child: Container(
-                        height: 70,
-                        color: Color.fromARGB(255, 223, 221, 221),
-                        child: Row(
-                          children: [
-                            Text(
-                              " " + (index + 1).toString() + ". ",
-                              style: TextStyle(
-                                  fontSize: 18, fontWeight: FontWeight.bold),
-                            ),
-                            Flexible(
-                              child: Text(
-                                snapshot.data!.docs[index].data()["title"],
-                                overflow: TextOverflow.ellipsis,
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Container(
+                          height: 70,
+                          decoration: BoxDecoration(
+                              color: Color.fromARGB(255, 223, 221, 221),
+                              borderRadius: BorderRadius.circular(20)),
+                          child: Row(
+                            children: [
+                              Text(
+                                " " + (index + 1).toString() + ". ",
                                 style: TextStyle(
                                     fontSize: 18, fontWeight: FontWeight.bold),
                               ),
-                            ),
-                          ],
+                              Flexible(
+                                child: Text(
+                                  snapshot.data!.docs[index].data()["title"],
+                                  overflow: TextOverflow.ellipsis,
+                                  style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
                       ),
                     ),

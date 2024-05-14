@@ -36,7 +36,7 @@ class ResearchHome extends StatelessWidget {
                       child: Container(
                           height: 50,
                           decoration: BoxDecoration(
-                              color: Colors.blue,
+                              color: Color.fromARGB(255, 151, 49, 49),
                               borderRadius: BorderRadius.circular(20),
                               boxShadow: const [
                                 BoxShadow(
@@ -46,6 +46,10 @@ class ResearchHome extends StatelessWidget {
                               ]),
                           child: Row(
                             children: [
+                              Padding(
+                                padding: const EdgeInsets.all(10.0),
+                                child: Icon(Icons.book),
+                              ),
                               Padding(
                                 padding: const EdgeInsets.all(10.0),
                                 child: Text(
