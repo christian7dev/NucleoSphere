@@ -12,6 +12,9 @@ class NoteDetail extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    String convertNewLine(String content) {
+      return content.replaceAll(r'\n', '\n');
+    }
     return Scaffold(
       body: SafeArea(
         child: SingleChildScrollView(
@@ -35,7 +38,7 @@ class NoteDetail extends StatelessWidget {
               ),
               Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: Text(note),
+                child: Text(convertNewLine(note)),
               )
             ],
           ),
