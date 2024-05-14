@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "118083220738",
+    "project_id": "jotech-nuc",
+    "storage_bucket": "jotech-nuc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118083220738:android:67c8456195400a13837e1b",
+        "android_client_info": {
+          "package_name": "com.example.jotech"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABLPEYFEjCQGyeS15cOsUJbCVMijZR3fo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
